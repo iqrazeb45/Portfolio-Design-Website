@@ -6,7 +6,8 @@ import ExperienceCard from "../pages/Experience.jsx";
 import About from "../pages/About.jsx"; // adjust the path if needed
 import Education from "../pages/Education.jsx";
 import Projects from "../pages/Projects.jsx";
-import Footer from "./Footer.jsx"
+import Footer from "./Footer.jsx";
+import Skills from "../pages/Skills.jsx";
 
 export default function Hero() {
   return (
@@ -63,6 +64,13 @@ export default function Hero() {
           <div className="col text-center">
             <h2 className="display-4 fw-bold text-white mb-5">Education</h2>
             <Education />
+          </div>
+        </div>
+        {/* Skills Section */}
+        <div id="skills" className="row mt-5">
+          <div className="col text-center">
+            <h2 className="display-4 fw-bold text-white mb-5">Skills</h2>
+            <Skills />
           </div>
         </div>
 
@@ -125,9 +133,9 @@ export default function Hero() {
             {/* { Footer Section} */}
             <div id="contact" className="row mt-5">
               <div className=" text-center">
-     <h2 className="display-4 fw-bold text-white mb-5">Contact</h2>
+                <h2 className="display-4 fw-bold text-white mb-5">Contact</h2>
               </div>
-               <Footer />
+              <Footer />
             </div>
           </div>
         </section>
