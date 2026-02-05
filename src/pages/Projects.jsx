@@ -245,7 +245,7 @@ export default function Projects() {
                     <button
                       className="btn btn-success px-4"
                       onClick={() =>
-                        window.open("https://github.com/iqrazeb45", "_blank")
+                        window.open("https://github.com/iqrazeb45?tab=repositories", "_blank")
                       }
                     >
                       GitHub
