@@ -1,32 +1,42 @@
+
 import React from "react";
-import "../App.css";
+import "../App.css"; // We'll define the professional styles here
 
 export default function Skills() {
   const skills = [
     { title: "Frontend", items: ["HTML", "CSS", "JavaScript", "React", "Bootstrap", "Typescript", "Tailwind"] },
-    { title: "Backend", items: ["Node.js", "Express.js", "Firebase"] },
-    { title: "Database", items: ["MongoDB", "SQL"] },
-    { title: "Mobile Development", items: ["Flutter", "Dart"] },
-    { title: "Tools", items: ["Git", "GitHub", "Figma", "VS Code"] },
+    { title: "Backend", items: ["Node.js", "Express.js", "Firebase", "SQL", "MongoDB"] },
+    { title: "Mobile App", items: ["Flutter", "Dart"] },
+    { title: "Tools", items: ["Git", "GitHub", "Figma", "VS Code", "Android Studio"] },
   ];
 
   return (
-    <div className="row g-4 justify-content-center">
-      {skills.map((skill, index) => (
-        <div key={index} className="col-md-6 col-lg-4">
-          <div className="skill-card p-4 h-100 shadow-lg">
-            <h4 className="fw-bold text-white mb-3">{skill.title}</h4>
-
-            <ul className="list-unstyled text-light mb-0">
-              {skill.items.map((item, i) => (
-                <li key={i} className="mb-2">
-                  ✅ {item}
-                </li>
-              ))}
-            </ul>
-          </div>
+    <section className="skills-section py-3">
+      <div className="container">
+        <div className="row g-4 justify-content-center">
+          {skills.map((skill, index) => (
+            <div key={index} className="col-md-6 col-lg-3">
+              <div className="glass-card">
+                <div className="card-content">
+                  <div className="title-wrapper">
+                    <h4 className="skill-title">{skill.title}</h4>
+                    <div className="title-underline"></div>
+                  </div>
+                  <div className="skills-list">
+                    {skill.items.map((item, i) => (
+                      <span key={i} className="skill-badge">
+                        {item}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                {/* Decorative background blur */}
+                <div className="card-glow"></div>
+              </div>
+            </div>
+          ))}
         </div>
-      ))}
-    </div>
+      </div>
+    </section>
   );
 }

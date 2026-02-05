@@ -1,35 +1,4 @@
-// import React from "react";
 
-// export default function Education() {
-//   // Example education data
-//   const educationData = [
-//     {
-//       degree: "Bachelor of Science in Computer Science",
-//       institution: "COMSATS University Islamabad, Abbottabad",
-//       year: "2026",
-//       description: "Focused on web development, mobile app development, and problem-solving"
-//     },
-//   ];
-
-//   return (
-//     <section id="education" className="education-section py-5 rounded" style={{ backgroundColor: "#1a0d38" }}>
-//       <div className="container">
-
-//         <div className="row g-4" style= {{justifyContent: "center"}}>
-//           {educationData.map((edu, index) => (
-//             <div key={index} className="col-lg-6">
-//               <div className="card shadow-lg p-4 rounded" style={{ backgroundColor: "#110720", color: "#fff" }}>
-//                 <h4 className="fw-bold mb-2">{edu.degree}</h4>
-//                 <p className="mb-1"><strong>{edu.institution}</strong> | {edu.year}</p>
-//                 <p className="mb-0">{edu.description}</p>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
 import React from "react";
 
 export default function Education() {
@@ -44,7 +13,7 @@ export default function Education() {
   ];
 
   return (
-    <section id="education" className="py-5" style={{ backgroundColor: "#0f051d", color: "#e0e0e0" }}>
+    <section id="education" className="py-3" style={{ backgroundColor: " #110720", color: "#e0e0e0" }}>
       <div className="container py-4">
         {/* Section Heading */}
         <div className="text-center mb-5">

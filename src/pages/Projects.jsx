@@ -34,14 +34,7 @@ export default function Projects() {
       image:
         "https://images.unsplash.com/photo-1523875194681-bedd468c58bf?auto=format&fit=crop&w=900&q=60",
     },
-	   {
-      title: "Chat Us App",
-      description:
-        "A professional chess application built in Flutter with all chess rules and a modern UI.",
-      tech: ["Flutter", "Dart", "Firebase"],
-      image:
-        "https://images.unsplash.com/photo-1523875194681-bedd468c58bf?auto=format&fit=crop&w=900&q=60",
-    },
+	   
 	   {
       title: "Chat Us Application",
       description:
