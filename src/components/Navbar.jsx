@@ -1,58 +1,122 @@
 
+// import "../App.css";
+// import logo from "../assets/name.png"; 
+
+// export default function Navbar() {
+//   return (
+//     <header className="custom-header fixed-top">
+//       <nav className="navbar navbar-expand-lg custom-navbar">
+//         <div className="container d-flex align-items-center justify-content-between">
+          
+//           {/* Logo */}
+//           <img src={logo} alt="Logo" className="logo-img" />
+
+//           {/* Links */}
+//           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+//             <ul className="navbar-nav custom-nav gap-lg-4">
+//               <li className="nav-item">
+//                 <a className="nav-link custom-link" href="#home">
+//                   Home
+//                 </a>
+//               </li>
+
+//               <li className="nav-item">
+//                 <a className="nav-link custom-link" href="#about">
+//                   About
+//                 </a>
+//               </li>
+
+//               <li className="nav-item">
+//                 <a className="nav-link custom-link" href="#education">
+//                   Education
+//                 </a>
+//               </li>
+//                <li className="nav-item">
+//                 <a className="nav-link custom-link" href="#skills">
+//                   Skills
+//                 </a>
+//               </li>
+
+//               <li className="nav-item">
+//                 <a className="nav-link custom-link" href="#experience">
+//                   Experience
+//                 </a>
+//               </li>
+
+//               <li className="nav-item">
+//                 <a className="nav-link custom-link" href="#projects">
+//                   Projects
+//                 </a>
+//               </li>
+
+//               <li className="nav-item">
+//                 <a className="nav-link custom-link" href="#contact">
+//                   Contact
+//                 </a>
+//               </li>
+//             </ul>
+//           </div>
+//         </div>
+//       </nav>
+//     </header>
+//   );
+// }
 import "../App.css";
 import logo from "../assets/name.png"; 
+import { useState } from "react";
 
 export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header className="custom-header fixed-top">
       <nav className="navbar navbar-expand-lg custom-navbar">
         <div className="container d-flex align-items-center justify-content-between">
           
           {/* Logo */}
-          <img src={logo} alt="Logo" className="logo-img" />
+          <a className="navbar-brand" href="#home">
+            <img src={logo} alt="Logo" className="logo-img" />
+          </a>
+
+          {/* Hamburger button for small screens */}
+          <button
+            className="navbar-toggler"
+            type="button"
+            onClick={toggleNavbar}
+            aria-controls="navbarNav"
+            aria-expanded={isOpen}
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
 
           {/* Links */}
-          <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul className="navbar-nav custom-nav gap-lg-4">
+          <div className={`collapse navbar-collapse ${isOpen ? "show" : ""}`} id="navbarNav">
+            <ul className="navbar-nav ms-auto gap-lg-4">
               <li className="nav-item">
-                <a className="nav-link custom-link" href="#home">
-                  Home
-                </a>
+                <a className="nav-link custom-link" href="#home">Home</a>
               </li>
-
               <li className="nav-item">
-                <a className="nav-link custom-link" href="#about">
-                  About
-                </a>
+                <a className="nav-link custom-link" href="#about">About</a>
               </li>
-
               <li className="nav-item">
-                <a className="nav-link custom-link" href="#education">
-                  Education
-                </a>
+                <a className="nav-link custom-link" href="#education">Education</a>
               </li>
-               <li className="nav-item">
-                <a className="nav-link custom-link" href="#skills">
-                  Skills
-                </a>
-              </li>
-
               <li className="nav-item">
-                <a className="nav-link custom-link" href="#experience">
-                  Experience
-                </a>
+                <a className="nav-link custom-link" href="#skills">Skills</a>
               </li>
-
               <li className="nav-item">
-                <a className="nav-link custom-link" href="#projects">
-                  Projects
-                </a>
+                <a className="nav-link custom-link" href="#experience">Experience</a>
               </li>
-
               <li className="nav-item">
-                <a className="nav-link custom-link" href="#contact">
-                  Contact
-                </a>
+                <a className="nav-link custom-link" href="#projects">Projects</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link custom-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>

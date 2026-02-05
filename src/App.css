@@ -37,6 +37,17 @@
   }
 }
    /* NAVBAR */
+
+   .logo-img {
+  height: 50px; /* desktop */
+}
+
+@media (max-width: 768px) {
+  .logo-img {
+    height: 40px; /* smaller logo on mobile */
+  }
+}
+
 .custom-header {
   background: linear-gradient(to right, #110720, #110720, #4e00c2);
  /* #110720 with opacity */
