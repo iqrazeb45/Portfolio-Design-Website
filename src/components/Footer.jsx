@@ -1,63 +1,9 @@
-// import React from "react";
-// import { Link } from "react-router-dom";
-// export default function Footer() {
-//   return (
-//     <footer className="bg-dark text-light pt-5 pb-3 mt-4 w-100">
-//         <div className="row text-center text-md-start justify-content-center">
-//           {/* Contact Info */}
-//           <div className="col-md-4 mb-4">
-//             <h4 className="fw-bold text-white">Contact</h4>
 
-//             <p className="text-secondary mt-3 mb-1">
-//               <strong>Email:</strong> eqrajehanzeb55@gmail.com
-//             </p>
-
-//             <p className="text-secondary mb-1">
-//               <strong>Phone:</strong> +92 3197882408
-//             </p>
-
-//             <p className="text-secondary">
-//               <strong>Location:</strong> Pakistan
-//             </p>
-//           </div>
-
-//           {/* Social Links */}
-//           <div className="col-md-4 mb-4">
-//             <h4 className="fw-bold text-white">Follow Me</h4>
-
-//             <div className="d-flex justify-content-center justify-content-md-start gap-3 mt-3">
-//               <Link href="#" className="btn btn-outline-light btn-sm px-3">
-//                 LinkedIn
-//               </Link>
-
-//               <Link href="#" className="btn btn-outline-light btn-sm px-3">
-//                 GitHub
-//               </Link>
-
-//               <Link href="#" className="btn btn-outline-light btn-sm px-3">
-//                 Instagram
-//               </Link>
-//             </div>
-//           </div>
-//         </div>
-
-//         <hr className="border-secondary" />
-
-//         {/* Copyright */}
-//         <div className="text-center mt-3">
-//           <p className="text-secondary mb-0">
-//             © {new Date().getFullYear()} Iqra Zeb | All Rights Reserved
-//           </p>
-//         </div>
-   
-//     </footer>
-//   );
-// }
 import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="py-5 px-4 border-top border-white-10" style={{ backgroundColor: "#110720" }}>
+    <footer className="py-3 px-4 border-top border-white-10" style={{ backgroundColor: "#110720" }}>
       <div className="container text-center">
         {/* Contact Heading */}
         <p className="text-white-50 mb-3" style={{ maxWidth: "600px", margin: "0 auto" }}>

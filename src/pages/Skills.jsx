@@ -11,7 +11,7 @@ export default function Skills() {
   ];
 
   return (
-    <section className="skills-section py-3">
+    <section className="skills-section py-1">
       <div className="container">
         <div className="row g-4 justify-content-center">
           {skills.map((skill, index) => (

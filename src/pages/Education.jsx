@@ -13,8 +13,8 @@ export default function Education() {
   ];
 
   return (
-    <section id="education" className="py-3" style={{ backgroundColor: " #110720", color: "#e0e0e0" }}>
-      <div className="container py-4">
+    <section id="education" className="py-1" style={{ backgroundColor: " #110720", color: "#e0e0e0" }}>
+      <div className="container ">
         {/* Section Heading */}
         <div className="text-center mb-5">
           <div style={{ height: "4px", width: "60px", backgroundColor: "#7b2ff7", margin: "0 auto", borderRadius: "2px" }}></div>

@@ -64,7 +64,7 @@ export default function Hero() {
         {/* Education Section */}
         <div id="education" className="row mt-5">
           <div className="col text-center">
-            <h2 className="display-4 fw-bold text-white mb-5">Education</h2>
+            <h2 className="display-4 fw-bold text-white mb-5 ">Education</h2>
             <Education />
           </div>
         </div>
@@ -84,7 +84,7 @@ export default function Hero() {
               Work Experience
             </h2>
           </div>
-          <div className="row g-4">
+          <div className="row g-3">
             {experienceData.map((exp, index) => (
               <ExperienceCard key={index} experience={exp} />
             ))}
