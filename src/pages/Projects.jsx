@@ -71,7 +71,7 @@ export default function Projects() {
   ];
 
   return (
-    <section className="container py-5" id="projects">
+    <section className="container py-1" id="projects">
       {/* Heading */}
       <div className="text-center mb-5">
         <p className="text-light fs-5">
