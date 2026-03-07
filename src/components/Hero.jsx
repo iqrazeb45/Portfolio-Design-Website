@@ -37,7 +37,7 @@ export default function Hero() {
           </div>
 
           {/* Right Image Section */}
-          <div className="col-lg-6 col-12 mt-4 mt-lg-0 text-center">
+          <div className="col-lg-6 col-12 mt-4 mt-lg-0 text-center py-3">
             <img
               src={hero}
               alt="Iqra Zeb - Software Developer"
