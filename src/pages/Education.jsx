@@ -8,7 +8,7 @@ export default function Education() {
       institution: "COMSATS University Islamabad, Abbottabad",
       year: "2022 — 2026",
       description: "Specializing in Full-Stack Development. Actively involved in competitive programming and modern web frameworks.",
-      skills: ["React", "JavaScript", "Html", "CSS","Flutter"]
+      skills: ["Problem Solving", "Programming", "Software Development", "Database Management"]
     },
   ];
 

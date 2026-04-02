@@ -30,10 +30,7 @@ export default function Hero() {
               Because every elegant solution starts with the right logic.
             </p>
             <h2 className="fw-bold">I'm a Software Developer</h2>
-            <p className="mb-0">
-              Currently, I'm a Web Development Intern at{" "}
-              <span className="text-primary">Firnas.Tech</span>
-            </p>
+            
           </div>
 
           {/* Right Image Section */}

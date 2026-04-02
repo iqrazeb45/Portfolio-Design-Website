@@ -25,7 +25,7 @@ export default function About() {
         >
           I am a Computer Science graduate with a strong interest in web and
           mobile application development. I have hands-on experience with
-          Flutter, Firebase, HTML, CSS, JavaScript, and React, and I enjoy
+          Flutter, Firebase, HTML, CSS, JavaScript, React, and Next.js. I enjoy
           building user-friendly applications that solve real-world problems. I
           am passionate about continuous learning, improving my technical skills,
           and growing as a software developer.
