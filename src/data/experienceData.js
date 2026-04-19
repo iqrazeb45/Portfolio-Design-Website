@@ -10,7 +10,7 @@ const experienceData = [
   },
   {
     title: "Firnas.Tech - Web Developer",
-    subtitle: "March 2026- March 2026",
+    subtitle: "March 2025- March 2026",
     description:
       "Worked as a Web Development Intern, where I contributed to the development of modern web applications and gained practical experience in user interface design and collaborative software development.",
   },
