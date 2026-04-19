@@ -3,7 +3,7 @@
 const experienceData = [
   {
     title: "Firnas.Tech - Mobile App Developer",
-    subtitle: "Feb 2025- March 2025",
+    subtitle: "Jan 2025- March 2025",
     description:
       "Developed a real-time Flutter chat app with Firebase, supporting secure messaging, push notifications via FCM, live updates with Firestore, and user authentication, following Material Design.",
    
