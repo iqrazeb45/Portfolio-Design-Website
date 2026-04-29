@@ -224,10 +224,12 @@
   opacity: 0;
   background: linear-gradient(45deg, #00f2fe, #4facfe);
   transition: opacity 0.4s ease;
+
 }
 
 .glass-card:hover .card-glow {
   opacity: 0.15;
+ 
 }
 
 /* Typography & Badges */
@@ -264,4 +266,5 @@
 .skill-badge:hover {
   background: #4facfe;
   color: #fff;
+
 }

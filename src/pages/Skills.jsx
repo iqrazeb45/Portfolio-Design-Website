@@ -1,6 +1,6 @@
 
 import React from "react";
-import "../App.css"; // We'll define the professional styles here
+import "../App.css"; 
 
 export default function Skills() {
   const skills = [
@@ -15,7 +15,7 @@ export default function Skills() {
       <div className="container">
         <div className="row g-4 justify-content-center">
           {skills.map((skill, index) => (
-            <div key={index} className="col-md-6 col-lg-3">
+            <div key={index} className="col-md-6 col-lg-3 mt-5 mb-5">
               <div className="glass-card">
                 <div className="card-content">
                   <div className="title-wrapper">
